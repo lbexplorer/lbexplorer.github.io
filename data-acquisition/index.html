@@ -1,0 +1,218 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>数据获取 | 基于大数据的影评分析</title><meta name="author" content="Liu Bo"><meta name="copyright" content="Liu Bo"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="1. 数据来源在本项目中，我们的数据来源于多个电影评分网站，针对这些网站的数据可靠性分析如下所示 B站 数据质量和可靠性分析：  B站是一个视频分享平台，用户数量众多，因此收集到的影评数据较为丰富。 由于用户生成内容，数据质量可能有所不同，需要进行一定程度的筛选和清洗。 部分用户可能存在水军等不真实评论，对数据的可信度产生影响，需要谨慎处理。    腾讯视频 数据质量和可靠性分析：  腾讯视频作为">
+<meta property="og:type" content="website">
+<meta property="og:title" content="数据获取">
+<meta property="og:url" content="http://example.com/data-acquisition/index.html">
+<meta property="og:site_name" content="基于大数据的影评分析">
+<meta property="og:description" content="1. 数据来源在本项目中，我们的数据来源于多个电影评分网站，针对这些网站的数据可靠性分析如下所示 B站 数据质量和可靠性分析：  B站是一个视频分享平台，用户数量众多，因此收集到的影评数据较为丰富。 由于用户生成内容，数据质量可能有所不同，需要进行一定程度的筛选和清洗。 部分用户可能存在水军等不真实评论，对数据的可信度产生影响，需要谨慎处理。    腾讯视频 数据质量和可靠性分析：  腾讯视频作为">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png">
+<meta property="article:published_time" content="2024-04-21T08:39:13.000Z">
+<meta property="article:modified_time" content="2024-04-22T15:31:02.781Z">
+<meta property="article:author" content="Liu Bo">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/data-acquisition/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=4.13.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.11.1/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: true,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '数据获取',
+  isPost: false,
+  isHome: false,
+  isHighlightShrink: true,
+  isToc: true,
+  postUpdate: '2024-04-22 23:31:02'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><script>(()=>{
+  const $loadingBox = document.getElementById('loading-box')
+  const $body = document.body
+  const preloader = {
+    endLoading: () => {
+      $body.style.overflow = ''
+      $loadingBox.classList.add('loaded')
+    },
+    initLoading: () => {
+      $body.style.overflow = 'hidden'
+      $loadingBox.classList.remove('loaded')
+    }
+  }
+
+  preloader.initLoading()
+  window.addEventListener('load',() => { preloader.endLoading() })
+
+  if (false) {
+    document.addEventListener('pjax:send', () => { preloader.initLoading() })
+    document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+  }
+})()</script><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">1</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首頁</span></a></div><div class="menus_item"><a class="site-page" href="/data-acquisition/"><i class="fa-fw fas fa-chart-bar"></i><span> 數據获取</span></a></div><div class="menus_item"><a class="site-page" href="/data-analysis/"><i class="fa-fw fas fa-chart-line"></i><span> 數據可视化分析</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 数据分析结果</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 团队成员</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="not-home-page" id="page-header" style="background-image: url('/img/bg.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="基于大数据的影评分析"><span class="site-name">基于大数据的影评分析</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首頁</span></a></div><div class="menus_item"><a class="site-page" href="/data-acquisition/"><i class="fa-fw fas fa-chart-bar"></i><span> 數據获取</span></a></div><div class="menus_item"><a class="site-page" href="/data-analysis/"><i class="fa-fw fas fa-chart-line"></i><span> 數據可视化分析</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 数据分析结果</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 团队成员</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="page-site-info"><h1 id="site-title">数据获取</h1></div></header><main class="layout" id="content-inner"><div id="page"><div id="article-container"><h1 id="1-数据来源"><a href="#1-数据来源" class="headerlink" title="1. 数据来源"></a>1. 数据来源</h1><p>在本项目中，我们的数据来源于多个电影评分网站，针对这些网站的数据可靠性分析如下所示</p>
+<h2 id="B站"><a href="#B站" class="headerlink" title="B站"></a>B站</h2><ul>
+<li><strong>数据质量和可靠性分析：</strong> <ul>
+<li>B站是一个视频分享平台，用户数量众多，因此收集到的影评数据较为丰富。</li>
+<li>由于用户生成内容，数据质量可能有所不同，需要进行一定程度的筛选和清洗。</li>
+<li>部分用户可能存在水军等不真实评论，对数据的可信度产生影响，需要谨慎处理。</li>
+</ul>
+</li>
+</ul>
+<h2 id="腾讯视频"><a href="#腾讯视频" class="headerlink" title="腾讯视频"></a>腾讯视频</h2><ul>
+<li><strong>数据质量和可靠性分析：</strong> <ul>
+<li>腾讯视频作为中国领先的视频网站之一，具有大量用户群体和丰富的视频内容。</li>
+<li>平台管理较为严格，对影评内容进行一定程度的审核和过滤，提高了数据的质量和可信度。</li>
+<li>数据相对可靠，但仍需注意部分用户可能存在盲目追随或者水军行为，需要加以识别和处理。</li>
+</ul>
+</li>
+</ul>
+<h2 id="豆瓣"><a href="#豆瓣" class="headerlink" title="豆瓣"></a>豆瓣</h2><ul>
+<li><strong>数据质量和可靠性分析：</strong> <ul>
+<li>豆瓣是一个专业的电影评分和影评平台，用户活跃度高，对影片品质有较高的要求。</li>
+<li>平台提供了丰富的影评数据，其中大部分用户具有较高的电影素养，对数据质量有所保障。</li>
+<li>数据质量较高，可靠性强，但仍需注意个别用户可能存在主观偏见或者恶意评论，需要进行筛选和排除。</li>
+</ul>
+</li>
+</ul>
+<h2 id="猫眼"><a href="#猫眼" class="headerlink" title="猫眼"></a>猫眼</h2><ul>
+<li><strong>数据质量和可靠性分析：</strong> <ul>
+<li>猫眼是中国领先的电影信息与电影票务在线交易平台，用户对电影的评分和评论较为直观。</li>
+<li>平台提供了较为真实和可靠的影评数据，用户对影片的评价较为客观，数据质量相对较高。</li>
+<li>数据相对可靠，但仍需注意平台可能存在推广和宣传导向，需要进行分析和甄别。</li>
+</ul>
+</li>
+</ul>
+<h1 id="2-数据获取方法"><a href="#2-数据获取方法" class="headerlink" title="2.数据获取方法"></a>2.数据获取方法</h1><p>在本项目中，我们使用 Python 编写的网络爬虫来从多个电影评分网站抓取数据。这些网站包括 b站, 豆瓣电影，腾讯视频，猫眼等。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">from</span> xml.etree.ElementTree <span class="keyword">import</span> fromstring</span><br><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">fetch_bilibili_danmus</span>(<span class="params">url</span>):</span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        <span class="comment"># 发送网络请求</span></span><br><span class="line">        response = requests.get(url)</span><br><span class="line">        response.raise_for_status()  <span class="comment"># 如果请求失败，则抛出异常</span></span><br><span class="line">        xml_content = response.content</span><br><span class="line"></span><br><span class="line">        <span class="comment"># 解析XML数据</span></span><br><span class="line">        xml_root = fromstring(xml_content)</span><br><span class="line">        danmus = []</span><br><span class="line">        <span class="keyword">for</span> d <span class="keyword">in</span> xml_root.findall(<span class="string">&#x27;d&#x27;</span>):</span><br><span class="line">            danmu_text = d.text</span><br><span class="line">            danmus.append(danmu_text)</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> danmus</span><br><span class="line">    <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;An error occurred: <span class="subst">&#123;e&#125;</span>&quot;</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">None</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">main</span>():</span><br><span class="line">    url = <span class="string">&#x27;https://comment.bilibili.com/1436594258.xml&#x27;</span> <span class="comment">#地址+cid 需要修改</span></span><br><span class="line"></span><br><span class="line">    <span class="comment"># 获取弹幕数据</span></span><br><span class="line">    danmus = fetch_bilibili_danmus(url)</span><br><span class="line">    <span class="keyword">if</span> danmus:</span><br><span class="line">        <span class="comment"># 将弹幕数据转换成DataFrame</span></span><br><span class="line">        danmu_df = pd.DataFrame(danmus, columns=[<span class="string">&#x27;弹幕内容&#x27;</span>])</span><br><span class="line"></span><br><span class="line">        <span class="comment"># 存储到本地CSV文件</span></span><br><span class="line">        danmu_df.to_csv(<span class="string">&#x27;bilibili_danmus.csv&#x27;</span>, encoding=<span class="string">&#x27;utf_8_sig&#x27;</span>, index=<span class="literal">False</span>)</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;弹幕数据已保存到文件: bilibili_danmus.csv&quot;</span>)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;未能获取弹幕数据，可能由于网络请求失败。&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&quot;__main__&quot;</span>:</span><br><span class="line">    main()</span><br></pre></td></tr></table></figure>
+<h1 id="3-部分数据展示"><a href="#3-部分数据展示" class="headerlink" title="3.部分数据展示"></a>3.部分数据展示</h1><h2 id="部分影评数据展示"><a href="#部分影评数据展示" class="headerlink" title="部分影评数据展示"></a>部分影评数据展示</h2><img src="https://pic.imgdb.cn/item/66267d440ea9cb1403338cce.png" alt="部分影评数据" style="width: 80%;">
+
+<h2 id="飞驰人生1词云图"><a href="#飞驰人生1词云图" class="headerlink" title="飞驰人生1词云图"></a>飞驰人生1词云图</h2><img src="https://pic.imgdb.cn/item/66267d440ea9cb1403338da6.jpg" alt="飞驰人生1词云图" style="width: 50%;">
+
+<h2 id="飞驰人生2词云图"><a href="#飞驰人生2词云图" class="headerlink" title="飞驰人生2词云图"></a>飞驰人生2词云图</h2><img src="https://pic.imgdb.cn/item/66267d460ea9cb140333914f.png" alt="飞驰人生2词云图" style="width: 50%;">
+
+
+</div></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#1-%E6%95%B0%E6%8D%AE%E6%9D%A5%E6%BA%90"><span class="toc-number">1.</span> <span class="toc-text">1. 数据来源</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#B%E7%AB%99"><span class="toc-number">1.1.</span> <span class="toc-text">B站</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%85%BE%E8%AE%AF%E8%A7%86%E9%A2%91"><span class="toc-number">1.2.</span> <span class="toc-text">腾讯视频</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%B1%86%E7%93%A3"><span class="toc-number">1.3.</span> <span class="toc-text">豆瓣</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%8C%AB%E7%9C%BC"><span class="toc-number">1.4.</span> <span class="toc-text">猫眼</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2-%E6%95%B0%E6%8D%AE%E8%8E%B7%E5%8F%96%E6%96%B9%E6%B3%95"><span class="toc-number">2.</span> <span class="toc-text">2.数据获取方法</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#3-%E9%83%A8%E5%88%86%E6%95%B0%E6%8D%AE%E5%B1%95%E7%A4%BA"><span class="toc-number">3.</span> <span class="toc-text">3.部分数据展示</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%83%A8%E5%88%86%E5%BD%B1%E8%AF%84%E6%95%B0%E6%8D%AE%E5%B1%95%E7%A4%BA"><span class="toc-number">3.1.</span> <span class="toc-text">部分影评数据展示</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%A3%9E%E9%A9%B0%E4%BA%BA%E7%94%9F1%E8%AF%8D%E4%BA%91%E5%9B%BE"><span class="toc-number">3.2.</span> <span class="toc-text">飞驰人生1词云图</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%A3%9E%E9%A9%B0%E4%BA%BA%E7%94%9F2%E8%AF%8D%E4%BA%91%E5%9B%BE"><span class="toc-number">3.3.</span> <span class="toc-text">飞驰人生2词云图</span></a></li></ol></li></ol></div></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">1</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2024-04-22T15:32:26.772Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
