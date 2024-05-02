@@ -1,0 +1,436 @@
+{
+    "nodes": [
+        {
+            "id": "movie_0",
+            "label": "飞驰人生2",
+            "type": "movie"
+        },
+        {
+            "id": "genre_275",
+            "label": "剧情",
+            "type": "genre"
+        },
+        {
+            "id": "genre_263",
+            "label": "喜剧",
+            "type": "genre"
+        },
+        {
+            "id": "genre_250",
+            "label": "运动",
+            "type": "genre"
+        },
+        {
+            "id": "movie_1",
+            "label": "后会无期",
+            "type": "movie"
+        },
+        {
+            "id": "movie_2",
+            "label": "乘风破浪",
+            "type": "movie"
+        },
+        {
+            "id": "movie_3",
+            "label": "四海",
+            "type": "movie"
+        },
+        {
+            "id": "genre_266",
+            "label": "动作",
+            "type": "genre"
+        },
+        {
+            "id": "genre_271",
+            "label": "爱情",
+            "type": "genre"
+        },
+        {
+            "id": "movie_4",
+            "label": "飞驰人生",
+            "type": "movie"
+        },
+        {
+            "id": "movie_5",
+            "label": "第二十条",
+            "type": "movie"
+        },
+        {
+            "id": "genre_274",
+            "label": "家庭",
+            "type": "genre"
+        },
+        {
+            "id": "movie_6",
+            "label": "热辣滚烫",
+            "type": "movie"
+        },
+        {
+            "id": "movie_7",
+            "label": "我不是药神",
+            "type": "movie"
+        },
+        {
+            "id": "movie_8",
+            "label": "独行月球",
+            "type": "movie"
+        },
+        {
+            "id": "genre_268",
+            "label": "科幻",
+            "type": "genre"
+        },
+        {
+            "id": "movie_9",
+            "label": "夏洛特烦恼",
+            "type": "movie"
+        },
+        {
+            "id": "movie_10",
+            "label": "西虹市首富",
+            "type": "movie"
+        },
+        {
+            "id": "movie_11",
+            "label": "羞羞的铁拳",
+            "type": "movie"
+        },
+        {
+            "id": "genre_252",
+            "label": "奇幻",
+            "type": "genre"
+        },
+        {
+            "id": "movie_12",
+            "label": "满江红",
+            "type": "movie"
+        },
+        {
+            "id": "genre_269",
+            "label": "悬疑",
+            "type": "genre"
+        },
+        {
+            "id": "genre_270",
+            "label": "古装",
+            "type": "genre"
+        },
+        {
+            "id": "movie_13",
+            "label": "你好，李焕英",
+            "type": "movie"
+        },
+        {
+            "id": "movie_14",
+            "label": "我和我的父辈",
+            "type": "movie"
+        },
+        {
+            "id": "movie_15",
+            "label": "温暖的抱抱",
+            "type": "movie"
+        },
+        {
+            "id": "movie_16",
+            "label": "大话西游之大圣娶亲",
+            "type": "movie"
+        },
+        {
+            "id": "genre_258",
+            "label": "动画",
+            "type": "genre"
+        },
+        {
+            "id": "genre_264",
+            "label": "冒险",
+            "type": "genre"
+        },
+        {
+            "id": "movie_17",
+            "label": "功夫",
+            "type": "movie"
+        },
+        {
+            "id": "genre_272",
+            "label": "犯罪",
+            "type": "genre"
+        },
+        {
+            "id": "movie_18",
+            "label": "美人鱼",
+            "type": "movie"
+        },
+        {
+            "id": "movie_19",
+            "label": "红海行动",
+            "type": "movie"
+        },
+        {
+            "id": "genre_262",
+            "label": "战争",
+            "type": "genre"
+        },
+        {
+            "id": "movie_20",
+            "label": "熔炉",
+            "type": "movie"
+        },
+        {
+            "id": "movie_21",
+            "label": "教父",
+            "type": "movie"
+        }
+    ],
+    "links": [
+        {
+            "source": "movie_0",
+            "target": "genre_275",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_0",
+            "target": "genre_263",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_0",
+            "target": "genre_250",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_1",
+            "target": "genre_275",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_2",
+            "target": "genre_275",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_2",
+            "target": "genre_263",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_3",
+            "target": "genre_263",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_3",
+            "target": "genre_266",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_3",
+            "target": "genre_271",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_4",
+            "target": "genre_263",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_5",
+            "target": "genre_275",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_5",
+            "target": "genre_263",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_5",
+            "target": "genre_274",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_6",
+            "target": "genre_275",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_6",
+            "target": "genre_263",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_7",
+            "target": "genre_275",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_7",
+            "target": "genre_263",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_8",
+            "target": "genre_263",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_8",
+            "target": "genre_268",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_9",
+            "target": "genre_263",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_9",
+            "target": "genre_271",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_10",
+            "target": "genre_263",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_11",
+            "target": "genre_263",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_11",
+            "target": "genre_252",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_12",
+            "target": "genre_275",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_12",
+            "target": "genre_263",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_12",
+            "target": "genre_269",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_12",
+            "target": "genre_270",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_13",
+            "target": "genre_275",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_13",
+            "target": "genre_263",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_13",
+            "target": "genre_252",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_14",
+            "target": "genre_275",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_15",
+            "target": "genre_263",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_16",
+            "target": "genre_263",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_16",
+            "target": "genre_271",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_16",
+            "target": "genre_252",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_16",
+            "target": "genre_270",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_16",
+            "target": "genre_258",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_16",
+            "target": "genre_264",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_17",
+            "target": "genre_263",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_17",
+            "target": "genre_266",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_17",
+            "target": "genre_272",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_17",
+            "target": "genre_252",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_18",
+            "target": "genre_263",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_18",
+            "target": "genre_271",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_18",
+            "target": "genre_252",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_19",
+            "target": "genre_266",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_19",
+            "target": "genre_262",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_20",
+            "target": "genre_275",
+            "type": "belongs_to"
+        },
+        {
+            "source": "movie_21",
+            "target": "genre_275",
+            "type": "belongs_to"
+        }
+    ]
+}
