@@ -5,13 +5,27 @@
     <title>知识图谱可视化</title>
     <script src="https://cdn.jsdelivr.net/npm/d3@5"></script>
     <style>
-        .nodes circle.movie {
-            fill: blue;  /* 电影节点颜色 */
+        body, html {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        svg {
+            width: 100%;
+            height: 100%;
+            border: 1px solid #ccc; /* Optional border for visibility */
+        }
+        .nodes circle.topic {
+            fill: orange;  /* Topic节点颜色 */
             stroke: #fff;
             stroke-width: 1.5px;
         }
-        .nodes circle.genre {
-            fill: yellow;  /* 类型节点颜色 */
+        .nodes circle.review {
+            fill: yellow;  /* Review节点颜色 */
             stroke: #fff;
             stroke-width: 1.5px;
         }
@@ -28,18 +42,18 @@
     </style>
 </head>
 <body>
-    <svg width="960" height="960"></svg>
+    <svg></svg>
     <script>
         var svg = d3.select("svg"),
-            width = +svg.attr("width"),
-            height = +svg.attr("height");
+            width = window.innerWidth,
+            height = window.innerHeight;
 
         var simulation = d3.forceSimulation()
-            .force("link", d3.forceLink().id(function(d) { return d.id; }).distance(100))
-            .force("charge", d3.forceManyBody().strength(-400))
+            .force("link", d3.forceLink().id(function(d) { return d.id; }).distance(100).strength(1))
+            .force("charge", d3.forceManyBody().strength(-500))
             .force("center", d3.forceCenter(width / 2, height / 2));
 
-        d3.json("transformed_data_d3.json").then(function(graph) {
+        d3.json("graph_data.json").then(function(graph) {
             var links = svg.append("g")
                 .attr("class", "links")
                 .selectAll("line")
@@ -52,14 +66,21 @@
                 .data(graph.nodes)
                 .enter().append("g");
 
-            nodes.append("circle")
+            var circles = nodes.append("circle")
                 .attr("r", 10)
-                .attr("class", function(d) { return d.type === "movie" ? "movie" : "genre"; });
+                .attr("class", function(d) { return d.label === "Review" ? "review" : "topic"; });
 
-            nodes.append("text")
-                .text(function(d) { return d.label; })  // 显示节点的标题
+            var labels = nodes.append("text")
+                .text(function(d) { 
+                    return d.label === "Review" ? `${d.sentiment} - ${d.title}` : d.title;
+                })
                 .attr('x', 12)
                 .attr('y', 3);
+
+            nodes.call(d3.drag()
+                .on("start", dragstarted)
+                .on("drag", dragged)
+                .on("end", dragended));
 
             simulation
                 .nodes(graph.nodes)
@@ -80,10 +101,26 @@
                         return "translate(" + d.x + "," + d.y + ")";
                     });
             }
+
+            function dragstarted(d) {
+                if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+                d.fx = d.x;
+                d.fy = d.y;
+            }
+
+            function dragged(d) {
+                d.fx = d3.event.x;
+                d.fy = d3.event.y;
+            }
+
+            function dragended(d) {
+                if (!d3.event.active) simulation.alphaTarget(0);
+                d.fx = null;
+                d.fy = null;
+            }
         }).catch(function(error) {
             console.error('Error loading the data: ' + error);
         });
-
     </script>
 </body>
 </html>

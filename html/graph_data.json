@@ -1,0 +1,633 @@
+{
+  "nodes": [
+    {
+      "id": 228,
+      "label": "Review",
+      "title": "不好看呀，看一半很无聊就走了",
+      "sentiment": "负面"
+    },
+    {
+      "id": 302,
+      "label": "Topic",
+      "title": "情绪"
+    },
+    {
+      "id": 229,
+      "label": "Review",
+      "title": "是真的好看！",
+      "sentiment": "正面"
+    },
+    {
+      "id": 282,
+      "label": "Topic",
+      "title": "精彩"
+    },
+    {
+      "id": 230,
+      "label": "Review",
+      "title": "还行吧 一般般",
+      "sentiment": "中性"
+    },
+    {
+      "id": 268,
+      "label": "Topic",
+      "title": "感觉"
+    },
+    {
+      "id": 283,
+      "label": "Topic",
+      "title": "老套"
+    },
+    {
+      "id": 306,
+      "label": "Topic",
+      "title": "合格"
+    },
+    {
+      "id": 231,
+      "label": "Review",
+      "title": "还不错吧。。",
+      "sentiment": "正面"
+    },
+    {
+      "id": 232,
+      "label": "Review",
+      "title": "全程笑点不断 一个人看完了真的很不错 一点也不尬的喜剧 演员们的表演都特别到位 值得推荐",
+      "sentiment": "正面"
+    },
+    {
+      "id": 262,
+      "label": "Topic",
+      "title": "喜剧"
+    },
+    {
+      "id": 273,
+      "label": "Topic",
+      "title": "演员"
+    },
+    {
+      "id": 285,
+      "label": "Topic",
+      "title": "笑点"
+    },
+    {
+      "id": 233,
+      "label": "Review",
+      "title": "前半段搞笑，后半段热血！不错不错",
+      "sentiment": "正面"
+    },
+    {
+      "id": 264,
+      "label": "Topic",
+      "title": "热血"
+    },
+    {
+      "id": 234,
+      "label": "Review",
+      "title": "挺好看的电影，值得去电影观看。",
+      "sentiment": "正面"
+    },
+    {
+      "id": 279,
+      "label": "Topic",
+      "title": "影院"
+    },
+    {
+      "id": 235,
+      "label": "Review",
+      "title": "算是给第一部画上了句号",
+      "sentiment": "正面"
+    },
+    {
+      "id": 304,
+      "label": "Topic",
+      "title": "结尾"
+    },
+    {
+      "id": 236,
+      "label": "Review",
+      "title": "看睡着了。真无语",
+      "sentiment": "负面"
+    },
+    {
+      "id": 237,
+      "label": "Review",
+      "title": "前作 差不多 处于 难看 之间 水平 一个 身体 严重 受伤 车手 一个 从未 比赛 新人 只用 100 天 时间 一个 草根 车队 带成 拉力赛 冠军 童话故事 对手 坏 天气 突变 传统 冲突 桥段 满满的 套路 化 剧情 设 老头 乐 飙车 王土 干 心思 亮点 外 没有 新 东西 励志 生硬 虚假 赛车场 面 做 很劲爆 专业 没有 太 燃 感觉 韩寒 确实 适合 拍电影 几年 几部 作品 看不到 进步 提升 沈腾 贾冰 演员 缺乏 发挥 空间 感觉 张本 煜 特别 适合 梁 景东 老师 演 父子 造型 太",
+      "sentiment": "负面"
+    },
+    {
+      "id": 261,
+      "label": "Topic",
+      "title": "赛车"
+    },
+    {
+      "id": 238,
+      "label": "Review",
+      "title": "后面 张弛 一段 恶心 一辆 缺 零件 车 一个 腿部 患疾 赛车手 能够 力压 顶级 配件 车 一群 实力 强劲 新星 聪明 卡 第六 位置 觉得 虚假 满足 没有 努力 达到 这种 效果 一段 戏 鸡血 配乐 更 烂 一段 删 可能 会 一颗 星 实在 太 俗不可耐 韩寒 电影 适合",
+      "sentiment": "负面"
+    },
+    {
+      "id": 305,
+      "label": "Topic",
+      "title": "车手"
+    },
+    {
+      "id": 239,
+      "label": "Review",
+      "title": "剧情 真的 稀碎 范丞丞 入队 之后 直接 进 比赛 中间 废戏 没有 加 砝码 韩寒 这种 水平 编剧 能够 单独 挂名 电影 算是 中国 电影 一个 奇景 编剧 课 球球",
+      "sentiment": "负面"
+    },
+    {
+      "id": 265,
+      "label": "Topic",
+      "title": "剧情"
+    },
+    {
+      "id": 276,
+      "label": "Topic",
+      "title": "比赛"
+    },
+    {
+      "id": 241,
+      "label": "Review",
+      "title": "剧情紧凑，不会觉得无聊，也没有让人觉得太生硬的地方。关键部分的特效也做得非常好，没有一些小制作电影的那种假。情节紧张积极又诙谐，笑点不多但是真的笑了。",
+      "sentiment": "正面"
+    },
+    {
+      "id": 269,
+      "label": "Topic",
+      "title": "部分"
+    },
+    {
+      "id": 242,
+      "label": "Review",
+      "title": "整体属于沈腾的调调，无功无过 高潮部分很热血,前半段有点平淡",
+      "sentiment": "中性"
+    },
+    {
+      "id": 272,
+      "label": "Topic",
+      "title": "有点"
+    },
+    {
+      "id": 243,
+      "label": "Review",
+      "title": "巨巨巨好看（多的不会了）�",
+      "sentiment": "正面"
+    },
+    {
+      "id": 244,
+      "label": "Review",
+      "title": "感觉前半部分太低潮太难受了，看了真的让人不怎么舒服，我都去上厕所了，不过后半部分还可以。感觉可以看看。",
+      "sentiment": "中性"
+    },
+    {
+      "id": 245,
+      "label": "Review",
+      "title": "第二次购买了，这次是给弟弟买的票，是影院的中心位置。电影非常好看，引人深思",
+      "sentiment": "正面"
+    },
+    {
+      "id": 263,
+      "label": "Topic",
+      "title": "人生"
+    },
+    {
+      "id": 246,
+      "label": "Review",
+      "title": "看习惯了沈腾的喜剧，总觉得他的脸很喜庆，但这部片子他每次笑都让人心疼，演的太棒了",
+      "sentiment": "正面"
+    },
+    {
+      "id": 247,
+      "label": "Review",
+      "title": "还可以 结尾很震撼",
+      "sentiment": "正面"
+    },
+    {
+      "id": 248,
+      "label": "Review",
+      "title": "我觉得很一般说实话，电影的一些搞笑的地方有点故意为之，前半部分看得我都想睡觉了",
+      "sentiment": "中性"
+    },
+    {
+      "id": 249,
+      "label": "Review",
+      "title": "激动人心的沈叔叔，十分好笑的吕小布。胖乎乎的尹正………真的，没有留遗憾，张弛，你赢了全部，因为你从未输过！！！！自从上次落寞，沉寂五年，我就明白，你不会甘心，因为我和你都会相信，你会用自己的实力证明，不仅仅你带的徒弟会赢，你自己也会骄傲的赢下，因为你一直都是，巴音布鲁克的王！",
+      "sentiment": "正面"
+    },
+    {
+      "id": 281,
+      "label": "Topic",
+      "title": "激�?"
+    },
+    {
+      "id": 250,
+      "label": "Review",
+      "title": "牛很好看！！！！",
+      "sentiment": "正面"
+    },
+    {
+      "id": 251,
+      "label": "Review",
+      "title": "剧情在上一部的基础上还行，可以一看，但是没有太惊艳的感觉，给7分",
+      "sentiment": "中性"
+    },
+    {
+      "id": 252,
+      "label": "Review",
+      "title": "可以感受到现实中的小人物的无奈，资本的强大，结局是励志的",
+      "sentiment": "正面"
+    },
+    {
+      "id": 289,
+      "label": "Topic",
+      "title": "励志"
+    },
+    {
+      "id": 286,
+      "label": "Topic",
+      "title": "现实"
+    },
+    {
+      "id": 284,
+      "label": "Topic",
+      "title": "结局"
+    },
+    {
+      "id": 253,
+      "label": "Review",
+      "title": "前半截好笑后半截好哭",
+      "sentiment": "正面"
+    },
+    {
+      "id": 254,
+      "label": "Review",
+      "title": "看完了，值得看的电影，剧情还可以，不过不耐看",
+      "sentiment": "正面"
+    },
+    {
+      "id": 255,
+      "label": "Review",
+      "title": "巴音布鲁克永远的王",
+      "sentiment": "正面"
+    },
+    {
+      "id": 256,
+      "label": "Review",
+      "title": "一般，笑点很多但是没有那种能引起观众爆笑的场景。而且比赛什么时候开始的我没反应过来，回来我同事说了，我才想起是直接用车子褪沙这个画面来代替了。两个同事看的打瞌睡�",
+      "sentiment": "负面"
+    },
+    {
+      "id": 280,
+      "label": "Topic",
+      "title": "观众"
+    },
+    {
+      "id": 257,
+      "label": "Review",
+      "title": "剧情真的很一般，不知道你们到底为什么喜欢他，可能就是那个赛车片段过瘾吧！总之奔着剧情来的就算了吧还得是第二十条",
+      "sentiment": "负面"
+    },
+    {
+      "id": 258,
+      "label": "Review",
+      "title": "剧情确实一般，反正凑合着看吧，贾冰得表演才是gei整部电影添加了色彩！",
+      "sentiment": "中性"
+    },
+    {
+      "id": 259,
+      "label": "Review",
+      "title": "低于预期。。。。",
+      "sentiment": "中性"
+    },
+    {
+      "id": 287,
+      "label": "Topic",
+      "title": "套路"
+    },
+    {
+      "id": 260,
+      "label": "Review",
+      "title": "剧情老套，不知是卖情怀还是卖情怀，可能怪我没有情怀只有逻辑的感怀，精心挑选春节档热门前三中的倒一，依然逃不开无趣的利爪，这个世界就是一个巨大的烂片！",
+      "sentiment": "负面"
+    }
+  ],
+  "links": [
+    {
+      "source": 228,
+      "target": 302,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 229,
+      "target": 282,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 230,
+      "target": 268,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 230,
+      "target": 283,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 230,
+      "target": 306,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 231,
+      "target": 282,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 231,
+      "target": 306,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 232,
+      "target": 262,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 232,
+      "target": 273,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 232,
+      "target": 285,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 233,
+      "target": 264,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 234,
+      "target": 279,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 234,
+      "target": 282,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 235,
+      "target": 304,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 236,
+      "target": 283,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 236,
+      "target": 302,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 237,
+      "target": 261,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 237,
+      "target": 268,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 238,
+      "target": 261,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 238,
+      "target": 305,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 239,
+      "target": 265,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 239,
+      "target": 276,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 241,
+      "target": 265,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 241,
+      "target": 285,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 241,
+      "target": 269,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 242,
+      "target": 272,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 242,
+      "target": 264,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 242,
+      "target": 269,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 243,
+      "target": 262,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 243,
+      "target": 282,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 244,
+      "target": 268,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 244,
+      "target": 269,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 245,
+      "target": 263,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 245,
+      "target": 282,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 246,
+      "target": 262,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 247,
+      "target": 282,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 247,
+      "target": 304,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 248,
+      "target": 272,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 248,
+      "target": 269,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 249,
+      "target": 281,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 249,
+      "target": 282,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 249,
+      "target": 273,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 250,
+      "target": 282,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 251,
+      "target": 265,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 251,
+      "target": 268,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 252,
+      "target": 289,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 252,
+      "target": 286,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 252,
+      "target": 284,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 253,
+      "target": 282,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 253,
+      "target": 302,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 254,
+      "target": 264,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 255,
+      "target": 264,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 256,
+      "target": 276,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 256,
+      "target": 285,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 256,
+      "target": 280,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 257,
+      "target": 265,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 257,
+      "target": 261,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 258,
+      "target": 265,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 259,
+      "target": 287,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 259,
+      "target": 306,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 260,
+      "target": 283,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 260,
+      "target": 287,
+      "type": "BELONGS_TO_TOPIC"
+    },
+    {
+      "source": 260,
+      "target": 302,
+      "type": "BELONGS_TO_TOPIC"
+    }
+  ]
+}

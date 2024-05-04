@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
-    <title>Knowledge Graph Visualization</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>知识图谱可视化</title>
     <script src="https://cdn.jsdelivr.net/npm/d3@5"></script>
     <style>
         body, html {
@@ -11,19 +13,20 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            overflow: hidden; /* 防止滚动条出现 */
         }
         svg {
-            width: 100%; /* Use the full width */
-            height: 100%; /* Use the full height */
-            border: 1px solid #ccc; /* Optional: for better visibility */
+            width: 100%; /* 自适应整个页面宽度 */
+            height: 100%; /* 自适应整个页面高度 */
+            border: 1px solid #ccc; /* 可选的边框以提高可见性 */
         }
-        .nodes circle.actor {
-            fill: orange;  /* 演员节点颜色 */
+        .nodes circle.movie {
+            fill: blue;  /* 电影节点颜色 */
             stroke: #fff;
             stroke-width: 1.5px;
         }
-        .nodes circle.film {
-            fill: blue;  /* 电影节点颜色 */
+        .nodes circle.genre {
+            fill: yellow;  /* 类型节点颜色 */
             stroke: #fff;
             stroke-width: 1.5px;
         }
@@ -46,14 +49,14 @@
             width = window.innerWidth,
             height = window.innerHeight;
 
-        svg.attr("width", width).attr("height", height);
+        svg.attr("width", width).attr("height", height); // 动态设置SVG尺寸
 
         var simulation = d3.forceSimulation()
-            .force("link", d3.forceLink().id(function(d) { return d.id; }).distance(100).strength(1))
-            .force("charge", d3.forceManyBody().strength(-200))
+            .force("link", d3.forceLink().id(function(d) { return d.id; }).distance(100))
+            .force("charge", d3.forceManyBody().strength(-300)) // 调整力的强度以改善布局
             .force("center", d3.forceCenter(width / 2, height / 2));
 
-        d3.json("processed_graph_data.json").then(function(graph) {
+        d3.json("transformed_data_d3.json").then(function(graph) {
             var links = svg.append("g")
                 .attr("class", "links")
                 .selectAll("line")
@@ -68,16 +71,17 @@
 
             nodes.append("circle")
                 .attr("r", 10)
-                .attr("class", function(d) { return d.label === "actor" ? "actor" : "film"; })
-                .call(d3.drag()
-                    .on("start", dragstarted)
-                    .on("drag", dragged)
-                    .on("end", dragended));
+                .attr("class", function(d) { return d.type === "movie" ? "movie" : "genre"; });
 
             nodes.append("text")
-                .text(function(d) { return d.title; })  // 显示节点的标题
+                .text(function(d) { return d.label; })
                 .attr('x', 12)
                 .attr('y', 3);
+
+            nodes.call(d3.drag()
+                .on("start", dragstarted)
+                .on("drag", dragged)
+                .on("end", dragended));
 
             simulation
                 .nodes(graph.nodes)

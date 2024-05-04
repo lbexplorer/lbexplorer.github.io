@@ -1,0 +1,1051 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "label": "Review",
+            "title": "全程笑点不断 一个人看完了真的很不错 一点也不尬的喜剧 演员们的表演都特别到位 值得推荐"
+        },
+        {
+            "id": 1,
+            "label": "Topic",
+            "title": "喜剧"
+        },
+        {
+            "id": 2,
+            "label": "Topic",
+            "title": "演员"
+        },
+        {
+            "id": 3,
+            "label": "Topic",
+            "title": "笑点"
+        },
+        {
+            "id": 4,
+            "label": "Review",
+            "title": "前半段搞笑，后半段热血！不错不错"
+        },
+        {
+            "id": 5,
+            "label": "Topic",
+            "title": "热血"
+        },
+        {
+            "id": 6,
+            "label": "Review",
+            "title": "后面 张弛 一段 恶心 一辆 缺 零件 车 一个 腿部 患疾 赛车手 能够 力压 顶级 配件 车 一群 实力 强劲 新星 聪明 卡 第六 位置 觉得 虚假 满足 没有 努力 达到 这种 效果 一段 戏 鸡血 配乐 更 烂 一段 删 可能 会 一颗 星 实在 太 俗不可耐 韩寒 电影 适合"
+        },
+        {
+            "id": 7,
+            "label": "Topic",
+            "title": "车手"
+        },
+        {
+            "id": 8,
+            "label": "Topic",
+            "title": "赛车"
+        },
+        {
+            "id": 9,
+            "label": "Review",
+            "title": "剧情 真的 稀碎 范丞丞 入队 之后 直接 进 比赛 中间 废戏 没有 加 砝码 韩寒 这种 水平 编剧 能够 单独 挂名 电影 算是 中国 电影 一个 奇景 编剧 课 球球"
+        },
+        {
+            "id": 10,
+            "label": "Topic",
+            "title": "剧情"
+        },
+        {
+            "id": 11,
+            "label": "Topic",
+            "title": "比赛"
+        },
+        {
+            "id": 12,
+            "label": "Review",
+            "title": "剧情紧凑，不会觉得无聊，也没有让人觉得太生硬的地方。关键部分的特效也做得非常好，没有一些小制作电影的那种假。情节紧张积极又诙谐，笑点不多但是真的笑了。"
+        },
+        {
+            "id": 13,
+            "label": "Topic",
+            "title": "部分"
+        },
+        {
+            "id": 14,
+            "label": "Review",
+            "title": "整体属于沈腾的调调，无功无过 高潮部分很热血,前半段有点平淡"
+        },
+        {
+            "id": 15,
+            "label": "Topic",
+            "title": "有点"
+        },
+        {
+            "id": 16,
+            "label": "Review",
+            "title": "感觉前半部分太低潮太难受了，看了真的让人不怎么舒服，我都去上厕所了，不过后半部分还可以。感觉可以看看。"
+        },
+        {
+            "id": 17,
+            "label": "Topic",
+            "title": "感觉"
+        },
+        {
+            "id": 18,
+            "label": "Review",
+            "title": "看习惯了沈腾的喜剧，总觉得他的脸很喜庆，但这部片子他每次笑都让人心疼，演的太棒了"
+        },
+        {
+            "id": 19,
+            "label": "Review",
+            "title": "我觉得很一般说实话，电影的一些搞笑的地方有点故意为之，前半部分看得我都想睡觉了"
+        },
+        {
+            "id": 20,
+            "label": "Review",
+            "title": "剧情在上一部的基础上还行，可以一看，但是没有太惊艳的感觉，给7分"
+        },
+        {
+            "id": 21,
+            "label": "Review",
+            "title": "可以感受到现实中的小人物的无奈，资本的强大，结局是励志的"
+        },
+        {
+            "id": 22,
+            "label": "Topic",
+            "title": "励志"
+        },
+        {
+            "id": 23,
+            "label": "Topic",
+            "title": "现实"
+        },
+        {
+            "id": 24,
+            "label": "Topic",
+            "title": "结局"
+        },
+        {
+            "id": 25,
+            "label": "Review",
+            "title": "一般，笑点很多但是没有那种能引起观众爆笑的场景。而且比赛什么时候开始的我没反应过来，回来我同事说了，我才想起是直接用车子褪沙这个画面来代替了。两个同事看的打瞌睡�"
+        },
+        {
+            "id": 26,
+            "label": "Topic",
+            "title": "观众"
+        },
+        {
+            "id": 27,
+            "label": "Review",
+            "title": "剧情真的很一般，不知道你们到底为什么喜欢他，可能就是那个赛车片段过瘾吧！总之奔着剧情来的就算了吧还得是第二十条"
+        },
+        {
+            "id": 28,
+            "label": "Review",
+            "title": "剧情确实一般，反正凑合着看吧，贾冰得表演才是gei整部电影添加了色彩！"
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 0,
+            "target": 1,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 0,
+            "target": 1,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 4,
+            "target": 5,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 4,
+            "target": 5,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 4,
+            "target": 5,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 6,
+            "target": 7,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 6,
+            "target": 8,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 6,
+            "target": 8,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 6,
+            "target": 7,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 6,
+            "target": 7,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 6,
+            "target": 8,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 9,
+            "target": 10,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 9,
+            "target": 11,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 9,
+            "target": 10,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 9,
+            "target": 11,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 9,
+            "target": 11,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 9,
+            "target": 10,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 12,
+            "target": 3,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 12,
+            "target": 10,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 12,
+            "target": 13,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 12,
+            "target": 3,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 12,
+            "target": 13,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 12,
+            "target": 13,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 12,
+            "target": 3,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 12,
+            "target": 10,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 12,
+            "target": 10,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 14,
+            "target": 13,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 14,
+            "target": 15,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 14,
+            "target": 5,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 14,
+            "target": 15,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 14,
+            "target": 13,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 14,
+            "target": 5,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 14,
+            "target": 15,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 14,
+            "target": 5,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 14,
+            "target": 13,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 16,
+            "target": 13,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 16,
+            "target": 17,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 16,
+            "target": 17,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 16,
+            "target": 17,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 16,
+            "target": 13,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 16,
+            "target": 13,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 18,
+            "target": 1,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 18,
+            "target": 1,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 18,
+            "target": 1,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 19,
+            "target": 15,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 19,
+            "target": 13,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 19,
+            "target": 13,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 19,
+            "target": 15,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 19,
+            "target": 13,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 19,
+            "target": 15,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 20,
+            "target": 17,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 20,
+            "target": 10,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 20,
+            "target": 10,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 20,
+            "target": 10,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 20,
+            "target": 17,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 20,
+            "target": 17,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 21,
+            "target": 22,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 21,
+            "target": 23,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 21,
+            "target": 24,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 21,
+            "target": 24,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 21,
+            "target": 23,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 21,
+            "target": 24,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 21,
+            "target": 22,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 21,
+            "target": 23,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 21,
+            "target": 22,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 25,
+            "target": 3,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 25,
+            "target": 26,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 25,
+            "target": 11,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 25,
+            "target": 26,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 25,
+            "target": 11,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 25,
+            "target": 11,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 25,
+            "target": 3,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 25,
+            "target": 26,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 25,
+            "target": 3,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 27,
+            "target": 8,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 27,
+            "target": 10,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 27,
+            "target": 8,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 27,
+            "target": 10,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 27,
+            "target": 8,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 27,
+            "target": 10,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 28,
+            "target": 10,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 28,
+            "target": 10,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 28,
+            "target": 10,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 0,
+            "target": 1,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 0,
+            "target": 1,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 0,
+            "target": 1,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 4,
+            "target": 5,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 4,
+            "target": 5,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 4,
+            "target": 5,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 6,
+            "target": 8,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 6,
+            "target": 8,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 6,
+            "target": 7,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 6,
+            "target": 7,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 6,
+            "target": 7,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 6,
+            "target": 8,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 9,
+            "target": 11,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 9,
+            "target": 11,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 9,
+            "target": 10,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 9,
+            "target": 11,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 9,
+            "target": 10,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 9,
+            "target": 10,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 12,
+            "target": 10,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 12,
+            "target": 3,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 12,
+            "target": 13,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 12,
+            "target": 3,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 12,
+            "target": 13,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 12,
+            "target": 10,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 12,
+            "target": 13,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 12,
+            "target": 10,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 12,
+            "target": 3,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 14,
+            "target": 13,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 14,
+            "target": 13,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 14,
+            "target": 5,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 14,
+            "target": 15,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 14,
+            "target": 15,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 14,
+            "target": 5,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 14,
+            "target": 5,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 14,
+            "target": 13,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 14,
+            "target": 15,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 16,
+            "target": 17,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 16,
+            "target": 17,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 16,
+            "target": 13,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 16,
+            "target": 13,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 16,
+            "target": 17,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 16,
+            "target": 13,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 18,
+            "target": 1,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 18,
+            "target": 1,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 18,
+            "target": 1,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 19,
+            "target": 15,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 19,
+            "target": 13,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 19,
+            "target": 13,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 19,
+            "target": 13,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 19,
+            "target": 15,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 19,
+            "target": 15,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 20,
+            "target": 17,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 20,
+            "target": 17,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 20,
+            "target": 10,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 20,
+            "target": 10,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 20,
+            "target": 10,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 20,
+            "target": 17,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 21,
+            "target": 23,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 21,
+            "target": 24,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 21,
+            "target": 22,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 21,
+            "target": 24,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 21,
+            "target": 23,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 21,
+            "target": 22,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 21,
+            "target": 24,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 21,
+            "target": 22,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 21,
+            "target": 23,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 25,
+            "target": 3,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 25,
+            "target": 26,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 25,
+            "target": 11,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 25,
+            "target": 11,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 25,
+            "target": 11,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 25,
+            "target": 26,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 25,
+            "target": 3,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 25,
+            "target": 3,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 25,
+            "target": 26,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 27,
+            "target": 8,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 27,
+            "target": 10,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 27,
+            "target": 10,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 27,
+            "target": 8,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 27,
+            "target": 8,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 27,
+            "target": 10,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 28,
+            "target": 10,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 28,
+            "target": 10,
+            "type": "BELONGS_TO_TOPIC"
+        },
+        {
+            "source": 28,
+            "target": 10,
+            "type": "BELONGS_TO_TOPIC"
+        }
+    ]
+}
